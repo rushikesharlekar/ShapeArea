@@ -17,13 +17,13 @@ public class Rectangle implements Shape{
 		// TODO Auto-generated constructor stub
 	}
 
-	@Override
+	
 	public float calculateArea() {
 		float area = this.breadth * this.length;
 		return area;
 	}
 
-	@Override
+	
 	public void setAttribute(int i, int j) {
 		this.breadth = j;
 		this.length = i;
